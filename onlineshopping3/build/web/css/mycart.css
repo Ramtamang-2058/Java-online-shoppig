@@ -1,0 +1,222 @@
+   *{
+            margin: 0%;
+            padding: 0%;
+        }
+        .Home{
+            background-color: rgb(245, 216, 161);
+            width: 100%;
+            height: auto;
+        }
+        .header{
+            width: 95%;
+            height: 70px;
+            background-color: oldlace;
+            margin: auto;
+        }
+        .logo{
+            width: 80px;
+            height: 50%;
+            float: left;
+            padding: 5px;
+            background-color: brown; 
+            margin: 12px;
+            border-radius: 50%;
+        }
+        .searchbox{
+            width: 670px;
+            background-color: aliceblue;
+            height: 50px;
+            float: left;
+            margin: 10px;
+            padding:  0 10px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+        .search-bar {
+            width: 100%;
+            border: none;
+        }
+
+        .search{
+            font-size: 20px;
+        }
+        .box{
+            font-size: 30px;
+            float: left;
+            width: 50px;
+            height: 50px;
+            margin: 10px;
+        }
+        .offer{
+            width: 280px;
+            float: left;
+            height: 50px;
+            background-color: orangered;
+            margin: 8px;
+        }
+        .off{
+            margin: 10px;
+        }
+        .image{
+            margin: auto;
+            width: 95%;
+            padding: 5px;
+        }
+        .content{
+            width: 95%;
+            height: 25px;
+            background-color: antiquewhite;
+            margin: auto;
+            color: black;
+        }
+        ul{
+            list-style: none;
+            text-align: center;
+            color: brown;
+            
+        }
+        li{
+            display: inline;
+            padding: 40px;
+            font-size: 22px;    
+        }
+        input {
+            padding: 10px 20px;
+        }
+        a {
+            text-decoration: none;
+            color: black;
+        }
+        .contaner1{
+            width: 95%;
+            margin: auto;
+            height: auto;
+            background-color: beige;
+        }
+        .contaner2{
+            width: 50%;
+            margin: auto;
+            text-align: center;
+            padding: 20px;
+        }
+        .COLOR{
+            color: orangered;
+        }
+        .contaner3{
+            margin: auto;
+            width: 95%;
+           height: auto;
+        }
+        .Cart-Container{
+            display:column;
+        width: 100%;
+        background-color: #ffffff;
+        border-radius: 20px;
+        box-shadow: 0px 25px 40px #1687d933;
+        }
+        .Header{
+        margin: auto;
+        width: 90%;
+        height: 15%;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 10px;
+        }
+        .Heading{
+        font-size: 20px;
+        font-weight: 700;
+        color: #2F3841;
+        border-bottom: 1px solid #E44C4C;
+        }
+        
+        .Cart-Items{
+        margin: auto;
+        width: 95%;
+        height: 30%;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        }
+        .image-box{
+        width: 15%;
+        text-align: center;
+        }
+        .about{
+            width: 30%;
+        height: 100%;
+        text-align: center;
+        }
+        .title{
+        padding-top: 5px;
+        line-height: 30px;
+        font-size: 20px;
+        font-weight: 900;
+        color: #202020;
+        
+        }
+        .subtitle{
+        line-height: 10px;
+        font-size: 18px;
+        font-weight: 600;
+        color: #909090;
+        }
+        
+        .prices{
+        height: 100%;
+        text-align: right;
+        }
+        .amount{
+        padding-top: 20px;
+        font-size: 20px;
+        font-weight: 800;
+        color: #202020;
+        }
+
+        .remove{
+        padding-top: 5px;
+        font-size: 14px;
+        font-weight: 600;
+        color: #E44C4C;
+        cursor: pointer;
+        }
+      
+        .checkout{
+        float: right;
+        margin-right: 5%;
+        width: 28%;
+        }
+        .total{
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+        }
+        .Subtotal{
+        font-size: 22px;
+        font-weight: 700;
+        color: #202020;
+        }
+        .items{
+        font-size: 16px;
+        font-weight: 500;
+        color: #909090;
+        line-height: 10px;
+        }
+        .total-amount{
+        font-size: 36px;
+        font-weight: 900;
+        color: #202020;
+        }
+        .button{
+        margin-top: 5px;
+        width: 100%;
+        height: 40px;
+        border: none;
+        background: linear-gradient(to bottom right, #B8D7FF, #8EB7EB);
+        border-radius: 20px;
+        cursor: pointer;
+        font-size: 16px;
+        font-weight: 600;
+        color: #202020;
+        }

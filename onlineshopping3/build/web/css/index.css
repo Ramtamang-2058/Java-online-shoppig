@@ -1,0 +1,315 @@
+ * {
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    background-color: white;
+    font-family: 'Poppins', sans-serif;
+}
+
+/* ************************* NAV SECTION BEGINS ************************* */
+nav {
+    height: 90px;
+    width: 100%;
+    background-color: rgb(255, 133, 34);
+    position: fixed;
+    box-shadow: 0px 1px 18px 0px #e6e6e6;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    height: 50px;
+    width: 305px;
+    margin: 35px 0px 25px 150px;
+    font-size: 30px;
+    font-weight: 600;
+    color: white;
+    /* background-image: url(../ASSETS/Website/PragatiHeaderLogo.svg); */
+    /* background-repeat: no-repeat; */
+}
+
+.buttons{
+    width: 370px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+}
+
+.loginButton {
+    font-size: 18px;
+    font-weight: bold;
+    background-color: rgb(255, 133, 34);
+    padding: 5px 30px;
+    width: auto;
+    text-align: center;
+    align-self: center;
+    text-decoration: none;
+    text-transform: uppercase;
+    color: #ffffff;
+    display: flex;
+    border: 1px solid #ffffff;
+    border-radius: 7px;
+    margin: 25px 0px 25px 0px;
+    /* box-shadow: 0px 1px 9px 0px #e6e6e6; */
+}
+
+.loginButton:hover,
+.loginButton:focus,
+.loginButton:active {
+    border: 1px solid #ffffff;
+    background-color: white;
+    box-shadow: 0px 1px 9px 0px #ff9777;
+    color: rgb(255, 133, 34);
+}
+
+.registerButton{
+    font-size: 18px;
+    font-weight: bold;
+    background-color: rgb(255, 133, 34);
+    padding: 5px 30px;
+    width: auto;
+    text-align: center;
+    align-self: center;
+    text-decoration: none;
+    text-transform: uppercase;
+    color: #ffffff;
+    display: flex;
+    border: 1px solid #ffffff;
+    border-radius: 7px;
+    margin: 25px 90px 25px 0px;
+}
+.registerButton:hover,
+.registerButton:focus,
+.registerButton:active {
+    border: 1px solid #ffffff;
+    background-color: white;
+    box-shadow: 0px 1px 9px 0px #ff9777;
+    color: rgb(255, 133, 34);
+}
+/* ************************* NAV SECTION ENDS ************************* */
+/* ************************* FIRST SECTION BEGINS ************************* */
+
+.spacing {
+    height: 100px;
+    background-color: ffffff;
+    width: 100%;
+}
+
+.spacing2 {
+    height: 100px;
+    background-color: ffffff;
+    width: 100%;
+}
+
+.Container1 {
+    margin: 0px 50px;
+    background-color: #FFFEF2;
+    height: 500px;
+    border-radius: 36px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.textContainer1 {
+    flex-direction: column;
+    width: 450px;
+    height: 400px;
+    background-color: none;
+    margin: 0px 0px 0px 100px;
+    justify-content: space-between;
+    color: #363636;
+}
+
+.mainButton {
+    font-size: 18px;
+    font-weight: bold;
+    background-color: rgb(255, 133, 34);
+    padding: 10px 30px;
+    width: 110px;
+    text-align: center;
+    text-decoration: none;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    display: flex;
+    border-radius: 10px;
+}
+
+.mainButton:hover,
+.mainButton:focus,
+.mainButton:active {
+    box-shadow: 0px 1px 9px 0px #cbbbf0;
+    background-color: #f05c06;
+}
+.imageContainer {
+    display: flex;
+    flex-direction: flex;
+    flex-wrap: wrap;
+    width: 600px;
+    height: 400px;
+    background-color: #fde800;
+    margin: 0px 25px 0px 0px;
+    justify-content: safe;
+    align-items: center;
+    border-radius: 10px;
+}
+.header{
+    text-align: justify;
+}
+
+/************************** FIRST SECTION ENDS ************************* */
+
+
+
+/************************** ACTIVITY SECTION BEGINS ************************* */
+.featuresH1 {
+    font-size: 36px;
+    font-style: bold;
+    color: #363636;
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.featuresFlex {
+    margin: 0px auto;
+    background-color: #FFFFFF;
+    height: 500px;
+    width: 950px;
+    display: flex;
+    flex-direction: auto;
+    flex-wrap: wrap;
+    text-align: center;
+}
+
+.mainIconBox {
+    height: 360px;
+    width: 270px;
+    background-color: white;
+    align-items: center;
+    justify-content: center;
+    margin: 20px;
+    border-radius: 10px;
+    color: rgb(66, 66, 66);
+    cursor: pointer;
+    box-shadow: 0px 1px 9px 0px #cfcfcf;
+
+}
+.featureLabel{
+    margin: 20px;
+    text-transform: uppercase;
+    font-size: 18px;
+    font-weight: 700;
+}
+.featureText{
+    margin: 30px;
+}
+.mainIconBox:hover{
+    background-color: rgb(255, 133, 34);
+    color: white;
+}
+.mainIconBox i{
+    font-size: 45px;
+    margin: 50px 0px 0px 0px;
+}
+.iconBox {
+    height: 100px;
+    width: 100px;
+    margin: 30px 50px;
+    border-radius: 15px;
+    border: 1px solid lightslategray;
+    box-shadow: 1px 1px 9px #e6e6e6;
+    background-color: #FFFFFF;
+}
+
+/************************** ACTIVITY SECTION ENDS ************************* */
+
+/* ************************* THIRD SECTION BEGINS ************************* */
+
+.Container3 {
+    margin: 0px 50px;
+    background-color: #fffbf7;
+    height: 500px;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.imageContainer1 {
+    background-color: aqua;
+    width: 600px;
+    height: 400px;
+    margin: 0px 50px 0px 50px;
+    border-radius: 10px;
+    box-shadow: 1px 1px 18px #ffc8df;
+
+}
+
+/* ************************* THIRD SECTION ENDS ************************* */
+
+
+footer {
+    height: 70px;
+    width: 100%;
+    background-color: rgb(255, 133, 34);
+    position: relative;
+}
+
+.adminLogin {
+    font-size: 20px;
+    font-weight: bold;
+    background-color: rgb(255, 133, 34);
+    padding: 10px 20px;
+    width: 144px;
+    text-align: center;
+    text-decoration: none;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    display: flex;
+    border-radius: 12px;
+    margin: 20px 0px 0px 100px;
+    position: absolute;
+    right: 20px;
+    bottom: 10px;
+}
+
+.adminLogin:hover,
+.adminLogin:focus,
+.adminLogin:active {
+    background-color: rgb(255, 122, 14);
+    border: 1px solid white;
+}
+
+/* ************************* FOURTH SECTION ENDS ************************* */
+
+/* FOR CONTAINER: 
+
+    height: ;
+    width: ;
+    background-color: ;
+    display: ;
+    flex-direction: ; 
+    flex-wrap: ;
+    justify-content: ;
+    align-items: ;
+
+    */
+
+/* FOR ITEM: 
+ 
+    height: ;
+    width: ;
+    order: ;
+    flex-grow: ;
+    justify-content: ;
+    align-items: ; */

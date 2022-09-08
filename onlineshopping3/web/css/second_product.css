@@ -1,0 +1,148 @@
+   *{
+            margin: 0%;
+            padding: 0%;
+        }
+        .Home{
+            background-color: rgb(245, 216, 161);
+            width: 100%;
+            height: auto;
+        }
+        .header{
+            width: 95%;
+            height: 70px;
+            background-color: oldlace;
+            margin: auto;
+        }
+        .logo{
+            width: 80px;
+            height: 50%;
+            float: left;
+            padding: 5px;
+            background-color: brown; 
+            margin: 12px;
+            border-radius: 50%;
+        }
+        .searchbox{
+            width: 670px;
+            background-color: aliceblue;
+            height: 50px;
+            float: left;
+            margin: 10px;
+            padding:  0 10px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+        .search-bar {
+            width: 100%;
+            border: none;
+        }
+
+        .search{
+            font-size: 20px;
+        }
+        .box{
+            font-size: 30px;
+            float: left;
+            width: 50px;
+            height: 50px;
+            background-color: aquamarine;
+            margin: 10px;
+        }
+        .offer{
+            width: 280px;
+            float: left;
+            height: 50px;
+            background-color: orangered;
+            margin: 8px;
+        }
+        .off{
+            margin: 10px;
+        }
+        .image{
+            margin: auto;
+            width: 95%;
+            padding: 5px;
+        }
+        .content{
+            width: 95%;
+            height: 25px;
+            background-color: antiquewhite;
+            margin: auto;
+            color: black;
+        }
+        ul{
+            list-style: none;
+            text-align: center;
+            color: brown;
+            
+        }
+        li{
+            display: inline;
+            padding: 40px;
+            font-size: 22px;    
+        }
+        input {
+            padding: 10px 20px;
+        }
+        a {
+            text-decoration: none;
+            color: black;
+        }
+        .product_detail{
+            margin: auto;
+            height: 400px;
+            width: 95%;
+            background-color: rgb(247, 214, 177);
+            display: flex;
+        }
+        .product_image{
+            width: 30%;
+            height: 80%;
+        }
+        .product_name_price{
+            padding: 10px;
+            width: 40%;
+            height: 400pxs;
+        }
+        .others{
+            width: 30%;
+            height: 400px;
+            text-align: center;
+
+            
+        }
+        .product_name{
+            height: 200px;
+        }
+        .product_price{
+        height: 100px;  
+        }
+        button{
+            margin: auto;
+            width: 200px;
+            padding: 10px;
+        }
+        .buy{
+            margin: auto;
+            padding: 30px;
+        }
+       .delivery{
+           height: 200px;
+           padding: 5px;
+       }
+       .home_deliveary{
+           padding: 15px;
+       }
+       .details{
+           margin: auto;
+           width: 95%;
+           height: 250px;
+           background-color: rgb(245, 184, 128);
+       }
+       .features{
+           padding: 5px;
+       }
+       .points{
+           padding: 20px;
+       }

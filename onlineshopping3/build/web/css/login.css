@@ -1,0 +1,160 @@
+ *{
+                margin: 0%;
+                padding: 0%;
+            }
+            .header{
+                width: 100%;
+                height: 70px;
+                background-color: oldlace;
+                margin: auto;
+            }
+            .logo{
+                width: 80px;
+                height: 50%;
+                float: left;
+                padding: 5px;
+                background-color: brown;
+                margin: 12px;
+                border-radius: 50%;
+            }
+            .searchbox{
+                width: 700px;
+                background-color: aliceblue;
+                height: 50px;
+                float: left;
+                margin: 10px;
+            }
+            .searchbox{
+                width: 670px;
+                background-color: aliceblue;
+                height: 50px;
+                float: left;
+                margin: 10px;
+                padding:  0 10px;
+                display: flex;
+                justify-content: space-between;
+                align-items: center;
+            }
+            .search{
+                font-size: 20px;
+            }
+            .box{
+                font-size: 30px;
+                float: left;
+                width: 50px;
+                height: 50px;
+                margin: 10px;
+            }
+             .fa-cart-arrow-down{
+                padding: 10px;
+            }
+            .offer{
+                width: 280px;
+                float: left;
+                height: 50px;
+                background-color: blueviolet;
+                margin: 8px;
+            }
+            .off{
+                margin: 10px;
+            }
+            .content{
+                width: 100%;
+                height: 25px;
+                background-color: antiquewhite;
+                margin: auto;
+                color: black;
+            }
+            ul{
+                list-style: none;
+                text-align: center;
+                color: brown;
+
+            }
+            li{
+                display: inline;
+                padding: 50px;
+                font-size: 22px;
+            }
+            a {
+            text-decoration: none;
+            color: black;
+        }
+            .contaner1{
+                width: 100%;
+                height: 600px;
+                background-color: rgb(204, 187, 167);
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                
+            }
+            .contaner2{
+                width: 60%;
+                height: 400px;
+                background-color: rgb(224, 216, 216);
+                margin: auto;
+                border-radius: 20px;
+               
+            }
+
+            form {
+                 background-color: blanchedalmond;
+                padding: 10px 20px;
+                display: flex;
+                flex-direction: row;
+                justify-content: center;
+                align-items: center;
+                gap: 20px;
+                min-height: 100%;
+                border-radius: 20px;
+            }
+
+            .input-action {
+                flex: 1;
+                display: flex;
+                flex-direction: column;
+                gap: 25px;
+            }
+
+            .input-box {
+                display: flex;
+                gap: 5px;
+                flex-direction: column;
+            }
+
+            input {
+                padding: 10px 20px;
+               
+            }
+
+            .search-bar {
+                width: 100%;
+                border: none;
+            }
+
+            a {
+                text-decoration: none;
+            }
+
+            button {
+               
+                padding: 10px 20px;
+                border: none;
+            }
+
+            .extra {
+                width: 100%;
+            }
+
+            .extra-links {
+                flex: 1;
+                display: flex;
+                flex-direction: column;
+                gap: 25px;
+                align-items: center;
+                justify-content: space-between;
+            }
+            .space{
+                margin-left: 20px;
+            }

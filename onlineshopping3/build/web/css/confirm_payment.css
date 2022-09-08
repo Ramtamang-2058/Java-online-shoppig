@@ -1,0 +1,140 @@
+  body{
+            background-color: #f5f7fd!important;
+        }
+        *{
+            margin: auto;
+            padding: 0%;
+        }
+        .contaner1{
+            width: 100%;
+            height: 50px;
+            background: #1c252e;
+        }
+        .contaner2{
+            background: #60bb47!important;
+            height: 50px;
+            text-align: center;
+        }
+        .color{
+           padding: 15px;
+           color: white;
+           font-size: 14px;
+        }
+        .contaner3{
+            width: 100%;
+            height: 500px;
+            
+           display: flex;
+        }
+       .contaner4{
+           width: 50%;
+           height: 250px;
+           background-color:white;
+           border-radius: 20px;
+       }
+       .contaner5{
+           width: 40%;
+           background-color: white;
+           height: 350px;
+           border-radius: 20px;
+       }
+       .contaner4-1{
+           padding: 20px;
+       }
+       .contaner4-2{
+           margin: 0ch;
+           padding: 0px;
+           display: flex;   
+       }
+       hr{
+           margin: auto;
+       }
+       .flot{
+           float: right;
+           font-size: 15px;
+       }
+       .ncc{
+           float: left;
+        }
+        .float{
+            width: 50%;
+        }
+       .contaner4-3{
+           margin: 0ch;
+           padding: 5px;
+           display: flex;   
+       }
+       .contaner5-1{
+           padding: 20px;
+       }
+       .form{
+            height: 500px;
+            width: 850px;
+            margin: 10px auto;
+            background-color: white;
+            display: flex;
+            flex-direction: row;
+            flex-wrap: nowrap;
+            justify-content: space-evenly;
+        }
+        label{
+            font-size: 20px;
+            margin: 20px 20px 20px 20px;
+        }
+
+        input{
+            font-size: 16px;
+            margin: 10px 20px 20px 20px;
+            padding: 10px;
+            width: 250px;
+            border: 1px solid lightgrey;
+            border-radius: 10px;
+        }
+        .Button {
+            font-size: 18px;
+            font-weight: bold;
+            font-family: 'Poppins', sans-serif;
+            background-color:#60bb47;
+            padding: 10px 100px;
+            width: 270px;
+            text-align: center;
+            text-decoration: none;
+            text-transform: uppercase;
+            color: #FFFFFF;
+            display: flex;
+            border: none;
+            border-radius: 10px;
+            margin: 10px 20px 20px 20px;
+            margin-left: 100px;
+        }
+        .Button1{
+            font-size: 18px;
+            font-weight: bold;
+            font-family: 'Poppins', sans-serif;
+            background-color: #d4d4d4!important;
+            padding: 10px 100px;
+            width: 270px;
+            text-align: center;
+            text-decoration: none;
+            text-transform: uppercase;
+            color: #191414;
+            display: flex;
+            border: none;
+            border-radius: 10px;
+            margin: 10px 20px 20px 20px;
+            margin-left: 100px;
+        }
+        .contaner6{
+            width: 100%;
+            height: 50px;
+            background-color: white;
+            display:flex;
+        }
+        .contaner7{
+           float: left;
+            width: 50%;
+        }
+        .contaner8{
+            float: right;
+            width: 50%;
+        }

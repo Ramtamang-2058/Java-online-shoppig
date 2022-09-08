@@ -1,0 +1,187 @@
+   *{
+            margin: 0%;
+            padding: 0%;
+        }
+        .Home{
+            background-color: rgb(245, 216, 161);
+            width: 100%;
+            height: auto;
+        }
+        .header{
+            width: 95%;
+            height: 70px;
+            background-color: oldlace;
+            margin: auto;
+        }
+        .logo{
+            width: 80px;
+            height: 50%;
+            float: left;
+            padding: 5px;
+            background-color: brown; 
+            margin: 12px;
+            border-radius: 50%;
+        }
+        .searchbox{
+            width: 700px;
+            background-color: aliceblue;
+            height: 50px;
+            float: left;
+            margin: 10px;
+            padding:  0 10px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+        .search-bar {
+            width: 100%;
+            border: none;
+        }
+
+        .search{
+            font-size: 20px;
+        }
+        
+        .content{
+            width: 95%;
+            height: 25px;
+            background-color: antiquewhite;
+            margin: auto;
+            color: black;
+        }
+        ul{
+            list-style: none;
+            text-align: center;
+            color: brown;
+            
+        }
+        li{
+            display: inline;
+            padding: 30px;
+            font-size: 22px;    
+        }
+        input {
+            padding: 15px 20px;
+        }
+        a {
+            text-decoration: none;
+            color: black;
+        }
+        .contaner1{
+            width: 95%;
+            margin: auto;
+            height: 700px;
+            background-color: beige;
+        }
+        .contaner2{
+            width: 50%;
+            margin: auto;
+            text-align: center;
+            padding: 35px;
+            
+        }
+        .COLOR{
+            color: orangered;
+        }
+        .main{
+            width: 70%;
+            margin: 0px auto;
+            
+            background-color:antiquewhite;
+            border-radius: 20px;
+            padding: 30px;
+        }
+        h1{
+            margin: auto;
+            text-align: center;
+        }
+        .form{
+            height: 100%;
+            width: 100%;
+            margin: 10px auto;
+            background-color:antiquewhite;
+            display: flex;
+            flex-direction: row;
+            flex-wrap: nowrap;
+            justify-content: space-evenly;
+            border-radius: 30px;
+        }
+        .sideOne{
+            height: 100%;
+            width: 300px;
+            background-color:antiquewhite;
+            float: left;
+        }
+        .sideTwo{
+             height: 100%;
+            width: 300px;
+            background-color:antiquewhite;
+            float: right;
+        }
+        label{
+            font-size: 20px;
+            margin: 20px 20px 20px 20px;
+        }
+
+        input{
+            font-size: 16px;
+            margin: 10px 20px 20px 20px;
+            padding: 10px;
+            width: 250px;
+            border: 1px solid lightgrey;
+            border-radius: 10px;
+        }
+        .Button {
+            font-size: 18px;
+            font-weight: bold;
+            font-family: 'Poppins', sans-serif;
+            background-color:#e08013;
+            padding: 10px 100px;
+            width: 270px;
+            text-align: center;
+            text-decoration: none;
+            text-transform: uppercase;
+            color: #FFFFFF;
+            display: flex;
+            border: none;
+            border-radius: 10px;
+            margin: 10px 20px 20px 20px;
+            margin-top: 40px;
+        }
+        .Button:hover, .Button:focus, .Button:active{
+            box-shadow: 0px 1px 9px 0px #cbbbf0;
+            background-color:#cf7500;
+        }
+
+            .search-bar {
+                width: 100%;
+                border: none;
+            }
+
+            a {
+                text-decoration: none;
+            }
+
+            button {
+                margin-top: 50px;
+                padding: 10px 20px;
+                border: none;
+               
+            }
+
+            .extra {
+                width: 100%;
+            }
+
+            .extra-links {
+                flex: 1;
+                display: flex;
+                flex-direction: column;
+                gap: 25px;
+                align-items: center;
+                justify-content: space-between;
+            }
+            .space{
+               margin-top: 40px;
+                margin-left: 20px;
+            }

@@ -1,0 +1,198 @@
+ *{
+                margin: 0%;
+                padding: 0%;
+            }
+            .Home{
+                background-color: rgb(245, 184, 128);
+                width: 100%;
+                height: auto;
+            }
+            .header{
+                width: 95%;
+                height: 70px;
+                background-color: oldlace;
+                margin: auto;
+            }
+            .logo{
+                width: 80px;
+                height: 50%;
+                float: left;
+                padding: 5px;
+                background-color: brown;
+                margin: 12px;
+                border-radius: 50%;
+            }
+            .searchbox{
+                width: 670px;
+                background-color: aliceblue;
+                height: 50px;
+                float: left;
+                margin: 10px;
+                padding:  0 10px;
+                display: flex;
+                justify-content: space-between;
+                align-items: center;
+            }
+            .search-bar {
+                width: 100%;
+                border: none;
+            }
+
+            .search{
+                font-size: 20px;
+            }
+            .box{
+                font-size: 30px;
+                float: left;
+                width: 50px;
+                height: 50px;
+                
+                margin: 10px;
+            }
+            .fa-cart-arrow-down{
+                padding: 10px;
+            }
+            .offer{
+                width: 280px;
+                float: left;
+                height: 50px;
+                background-color: orangered;
+                margin: 8px;
+            }
+            .off{
+                margin: 10px;
+            }
+            .image{
+                margin: auto;
+                width: 95%;
+                padding: 5px;
+            }
+            .content{
+                width: 95%;
+                height: 25px;
+                background-color: antiquewhite;
+                margin: auto;
+                color: black;
+            }
+            ul{
+                list-style: none;
+                text-align: center;
+                color: brown;
+
+            }
+            li{
+                display: inline;
+                padding: 40px;
+                font-size: 22px;
+            }
+            input {
+                padding: 10px 20px;
+            }
+            a {
+                text-decoration: none;
+                color: black;
+            }
+            .contaner1{
+                margin: auto;
+                width: 95%;
+                height: 50px;
+                background-color: beige;
+                display:flex;
+
+            }
+            .first{
+                width: 19%;
+                height: 70%;
+                background-color: blanchedalmond;
+                margin: auto;
+                border-radius: 10px;
+            }
+            .second{
+                width: 19%;
+                height: 70%;
+                background-color: blanchedalmond;
+                margin: auto;
+                border-radius: 10px;
+            }
+            .third{
+                width: 19%;
+                height: 70%;
+                background-color: blanchedalmond;
+                margin: auto;
+                border-radius: 10px;
+            }
+            .fourth{
+                width: 19%;
+                height: 70%;
+                background-color: blanchedalmond;
+                margin: auto;
+                border-radius: 10px;
+            }
+            .fifth{
+                width: 19%;
+                height: 70%;
+                background-color: blanchedalmond;
+                margin: auto;
+                border-radius: 10px;
+            }
+            .mall{
+                text-align: center;
+            }
+            .flash_sale{
+                margin: 5px auto;
+                width: 95%;
+                height: 400px;
+                background-color: bisque;
+            }
+            .sale{
+                background-color: rgb(255, 255, 255);
+                height: 10%;
+            }
+            .onsale{
+                margin: auto;
+                display: flex;
+                justify-content: space-between;
+                padding: 10px;
+                border-bottom: 1px;
+                height: 5%;
+                background-color: blanchedalmond;
+            }
+            .shop{
+                border: 1px solid orangered;
+            }
+            .product{
+                width: 100%;
+                height: 75%;
+                display: flex;
+                margin: auto;
+
+            }
+            .first_product{
+                background-color: antiquewhite;
+                width: 15%;
+                height: 93%;
+                margin: 10px;
+            }
+            .product_image{
+                margin: auto;
+                margin-top: 3px;
+                width: 95%;
+                height: 70%;
+                background-color: blueviolet;
+                border-radius: 10px;
+            }
+            .product_detail{
+                height: 25%;
+                text-align: center;
+            }
+            .product_name{
+                width: auto;
+                height: 80%;
+
+            }
+            .product_price{
+                width: auto;
+                height: 20%;
+                color: red;
+                padding: 5px;
+            }

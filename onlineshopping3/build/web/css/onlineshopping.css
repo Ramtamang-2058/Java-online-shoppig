@@ -1,0 +1,96 @@
+  *{
+            margin: 0%;
+            padding: 0%;
+        }
+        .header{
+            width: 95%;
+            height: 70px;
+            background-color: oldlace;
+;
+            margin: auto;
+        }
+        .logo{
+            width: 80px;
+            height: 50%;
+            float: left;
+            padding: 5px;
+            background-color: brown; 
+            margin: 12px;
+            border-radius: 50%;
+        }
+        .searchbox{
+            width: 670px;
+            background-color: aliceblue;
+            height: 50px;
+            float: left;
+            margin: 10px;
+            padding:  0 10px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+        .search-bar {
+            width: 100%;
+            border: none;
+        }
+
+        .search{
+            font-size: 20px;
+        }
+        .box{
+            font-size: 30px;
+            float: left;
+            width: 50px;
+            height: 50px;
+            
+            margin: 10px;
+        }
+        .offer{
+            width: 280px;
+            float: left;
+            height: 50px;
+            background-color: blueviolet;
+            margin: 8px;
+        }
+        .off{
+            margin: 10px;
+        }
+        .image{
+            margin: auto;
+            width: 95%;
+            padding: 5px;
+        }
+        .content{
+            width: 95%;
+            height: 25px;
+            background-color: antiquewhite;
+            margin: auto;
+            color: black;
+        }
+        ul{
+            list-style: none;
+            text-align: center;
+            color: brown;
+            
+        }
+        li{
+            display: inline;
+            padding: 50px;
+            font-size: 22px;    
+        }
+        input {
+            padding: 10px 20px;
+        }
+        a {
+            text-decoration: none;
+            color: black;
+        }
+          .mit{
+                padding: 5px;
+                margin-top: 20px;
+                float: right;
+                
+            }
+            button{
+                
+            }
